@@ -1,0 +1,27 @@
+{"intents":[
+    {
+        "tag": "saludoEs",
+        "patterns": ["hola", "que tal", "como estas", "saludos"],
+        "responses": ["Hola!", "Buenos dias!", "Como va todo"]
+    },
+    {
+        "tag": "saludoEns",
+        "patterns": ["hi", "hello", "how are you", "hey", "What's up"],
+        "responses": ["Good Morning", "Hi!", "How are you?"]
+    },
+    {
+        "tag": "nombreEs",
+        "patterns": ["cual es tu nombre", "como te llamas"],
+        "responses": ["Mi nombre es Berserker", "Me llaman Berserker"]
+    },
+    {
+        "tag": "nombreNa",
+        "patterns": ["what's your name?", "What do people call you"],
+        "responses": ["My name is Berserker", "Berserker"]
+    },
+    {
+        "tag": "food",
+        "patterns": ["what's your favorite food?", "What do you like to eat the most?"],
+        "responses": ["My favorite food is Pizza", "Pizza"]
+    }
+]}
